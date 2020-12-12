@@ -58,6 +58,7 @@ function ProductScreen({ match }) {
                 <Button
                   className='btn-block'
                   type='button'
+                  // it will check if out of stock, add button will be disabled
                   disabled={product.countInStock === 0}
                 >
                   Add To Cart
