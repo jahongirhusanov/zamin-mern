@@ -15,7 +15,7 @@ function ProductScreen({ match }) {
     }
     // now we need to call above function
     fetchProduct()
-  }, [])
+  }, [match])
 
   return (
     <>
